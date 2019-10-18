@@ -170,6 +170,9 @@ Conventions
   anywhere in the body of the commit message to avoid needlessly
   triggering the build bots.
 
+* Try to avoid empty or trivial commits to trigger ci builds. 
+  There are people who are able to click "restart job" if needed.
+
 * For local imports (Cabal module importing Cabal module), import lists
   are NOT required (although you may use them at your discretion.)  For
   third-party and standard library imports, please use either qualified imports
